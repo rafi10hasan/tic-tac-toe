@@ -81,7 +81,7 @@ function DisplayWinner(squares){
    for(let i = 0; i<winningLogic.length;i++){
     let [a,b,c] = winningLogic[i]
 
-    if(squares[a] && squares[a]===Squares[b] && Squares[a]===Squares[c]){
+    if(squares[a] && squares[a]===squares[b] && Squares[a]===Squares[c]){
       return Squares[a];
     }
    }
