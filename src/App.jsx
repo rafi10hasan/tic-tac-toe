@@ -82,7 +82,7 @@ function DisplayWinner(squares){
     let [a,b,c] = winningLogic[i]
 
     if(squares[a] && squares[a]===squares[b] && squares[a]===squares[c]){
-      return Squares[a];
+      return squares[a];
     }
    }
 
